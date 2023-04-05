@@ -73,6 +73,7 @@ body{
   -o-border-radius: 50%;
   position: relative;
   bottom: 20px;
+  margin-top: 5rem;
 }
 .picture:hover{
   filter: saturate(1.5);
@@ -268,7 +269,7 @@ a{
 }
 .name{
   font-size: 2rem;
-  color: white
+  color: white;
 
 }
 .subtitle{
@@ -602,8 +603,6 @@ a{
 
 
  */
-
-
 
 
 @media (min-width: 600px) {

@@ -1,4 +1,5 @@
 import React from "react";
+import Darkmode from '../components/Darkmode'
 import { motion } from "framer-motion";
 
 const container = {
@@ -28,19 +29,14 @@ const Home = ({ isDark, handleDark }) => {
         <a className="icon" href="https://wa.me/+542612060674" target="_blank">
           <i className="fa-brands fa-whatsapp"></i>
         </a>
-        <button onClick={handleDark} className="icon">
-          {isDark ? (
-            <i className="fa-solid fa-sun"></i>
-          ) : (
-            <i className="fa-solid fa-moon"></i>
-          )}
-        </button>
       </div>
+      
       <div>
         <img className="picture" src="/images/Foto Mia.jpg" alt="" />
       </div>
       <h2 className="name">Fernando Rodriguez</h2>
       <p className="subtitle">Front-end • Web Developer</p>
+      <Darkmode isDark={isDark} onClick={handleDark} />
       <motion.ul
         transition={{ delay: 2 }}
         variants={container}
