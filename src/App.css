@@ -285,6 +285,7 @@ a{
   align-items: center;
   justify-content: center;
 }
+
 .about{
   display: flex;
   gap: 1em;
@@ -600,7 +601,24 @@ a{
 
 
  */
-
+ @media (min-width: 380px) {
+  .about {
+    width: 350px;
+  }
+  .logo {
+    scale: 0.6;
+    margin-left: 150px;
+  }
+}
+@media (min-width: 420px) {
+  .about {
+    width: 380px;
+  }
+  .logo {
+    scale: 0.6;
+    margin-left: 180px;
+  }
+}
 
 
 
