@@ -44,7 +44,7 @@ const Skills = () => {
           </div>
           <div className="skill vite">
             <div className="container-icon">
-              <img src="./vite.svg" alt="" />
+              <img src="/images/vite.svg" alt="" />
             </div>
             <p className="title-skill">Vite</p>
             <p className="text-skill">Paquete de herramientas de desarrollo web moderno y rápido.</p>

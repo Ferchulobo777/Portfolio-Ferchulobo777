@@ -285,7 +285,6 @@ a{
   align-items: center;
   justify-content: center;
 }
-
 .about{
   display: flex;
   gap: 1em;
@@ -358,7 +357,7 @@ a{
 .skill{
   display: flex;
   flex-direction: column  ;
-  
+  box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 5) inset;
   padding: 1em;
   width: 100%;
   max-width: 300px;
@@ -371,6 +370,7 @@ a{
 
 .skill:hover{
   transform: scale(1.03);
+  box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 5) inset;
 }
 
 .title-skill{
@@ -392,6 +392,7 @@ a{
   align-items: center;
   border-radius: 8px;
   margin-bottom: .5em;
+  box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 5) inset;
 }
 .skill img{
   width: 40px;
@@ -601,24 +602,7 @@ a{
 
 
  */
- @media (min-width: 380px) {
-  .about {
-    width: 350px;
-  }
-  .logo {
-    scale: 0.6;
-    margin-left: 150px;
-  }
-}
-@media (min-width: 420px) {
-  .about {
-    width: 380px;
-  }
-  .logo {
-    scale: 0.6;
-    margin-left: 180px;
-  }
-}
+
 
 
 
