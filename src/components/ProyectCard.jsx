@@ -10,12 +10,12 @@ const ProyectCard = ({ proyecto }) => {
         >
           <div class="bg_card"></div>
           <div class="body__card_front">
-            <h1>{proyecto.title}</h1>
+            <h1 className='proyect__title'>{proyecto.title}</h1>
           </div>
         </div>
         <div class="card__back">
           <div class="body__card_back">
-            <h1>{proyecto.title}</h1>
+            <h1 className='proyect__title'>{proyecto.title}</h1>
             <p>{proyecto.description}</p>
           </div>
           <a href={proyecto.link} target="_blank" rel="noreferrer">

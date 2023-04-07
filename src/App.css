@@ -330,9 +330,6 @@ a{
   align-items: center;
   justify-content: center;
   position: relative;
-  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, 
-  from(rgba(0,0,0,1)), to(rgba(0,0,0,0.3)));
-  text-shadow: 3px 3px 5px black;  
 }
 .bgColor{
   width: 300px;
@@ -373,7 +370,7 @@ a{
 }
 .skill{
   display: flex;
-  flex-direction: column  ;
+  flex-direction: column;
   box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 5) inset;
   padding: 1em;
   width: 100%;
@@ -383,6 +380,7 @@ a{
   border-radius: 15px;
   position: relative;
   transition: transform .1s linear;
+  align-items: center;
 }
 
 .skill:hover{
@@ -394,11 +392,20 @@ a{
   font-size: 1rem;
   color: var(--txcolor);
   font-weight: 400;
+  text-align: center;
+  -webkit-mask-image: -webkit-gradient(linear, left top, 
+  from(rgba(0,0,0,1)), to(rgba(0,0,0,0.3)));
+  text-shadow: 1px 1px 2px black;  
 }
 .text-skill{
   font-size: .8rem;
   color: var(--txcolor);
   font-weight: 300;
+  padding: 2px;
+  text-align: justify;
+  -webkit-mask-image: -webkit-gradient(linear, left top, 
+  from(rgba(0,0,0,1)), to(rgba(0,0,0,0.3)));
+  text-shadow: 1px 1px 2px black;  
 }
 .container-icon{
   width:60px;

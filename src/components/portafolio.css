@@ -22,6 +22,15 @@
   justify-content: center;
   align-items: center;
 }
+
+.card__back{
+   padding: 1rem;
+}
+.proyect__title{
+   -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, 
+   from(rgba(0,0,0,1)), to(rgba(0,0,0,0.3)));
+   text-shadow: 3px 3px 5px black;
+}
 .shadow{
   position: absolute;
   aspect-ratio: 2.5/1;
