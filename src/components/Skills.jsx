@@ -28,6 +28,13 @@ const Skills = () => {
             <p className="title-skill">CSS3</p>
             <p className="text-skill">Lenguaje de hojas de estilo en cascada para la elaboración de páginas web.</p>
           </div>
+          <div className="skill tailwind">
+            <div className="container-icon">
+            <img src="./images/tailwind-css-logo.webp" alt="" />
+            </div>
+            <p className="title-skill">Tailwind css</p>
+            <p className="text-skill">Framework de CSS que proporciona clases predefinidas para facilitar la construcción de interfaces de usuario personalizadas y responsivas.</p>
+          </div>
           <div className="skill js">
             <div className="container-icon">
               <i className="fa-brands fa-js-square"></i>
@@ -40,49 +47,56 @@ const Skills = () => {
               <i className="fa-brands fa-react"></i>
             </div>
             <p className="title-skill">React</p>
-            <p className="text-skill">Librería JavaScript de código abierto diseñada para crear interfaces de usuario.</p>
+            <p className="text-skill">Librería de JavaScript de código abierto que permite crear interfaces de usuario dinámicas y atractivas mediante un enfoque basado en componentes y un modelo de programación declarativo.</p>
           </div>
           <div className="skill vite">
             <div className="container-icon">
               <img src="/images/vite.svg" alt="" />
             </div>
             <p className="title-skill">Vite</p>
-            <p className="text-skill">Paquete de herramientas de desarrollo web moderno y rápido.</p>
+            <p className="text-skill">Herramienta de construcción de aplicaciones web rápida y fácil de usar, que utiliza tecnologías modernas y permite el desarrollo en tiempo real de proyectos con configuraciones sencillas.</p>
           </div>
           <div className="skill git">
             <div className="container-icon">
               <i className="fa-brands fa-git-alt"></i>
             </div>
             <p className="title-skill">Git</p>
-            <p className="text-skill">Sistema de control de versiones para el mantenimiento eficiente y confiable de archivos.</p>
+            <p className="text-skill">Sistema de control de versiones distribuido que permite gestionar y controlar cambios en archivos y proyectos de software.</p>
           </div>
           <div className="skill github">
             <div className="container-icon">
               <i class="fa-brands fa-github"></i>
             </div>
             <p className="title-skill">Git Hub</p>
-            <p className="text-skill">Plataforma de desarrollo colaborativo para alojar proyectos utilizando el sistema de control de versiones Git.</p>
+            <p className="text-skill">Plataforma web basada en Git que permite alojar, compartir y colaborar en proyectos de código abierto y privados.</p>
           </div>
           <div className="skill npm">
             <div className="container-icon">
               <i className="fa-brands fa-npm"></i>
             </div>
             <p className="title-skill">NPM</p>
-            <p className="text-skill">Gestor de paquetes para el lenguaje de programación JavaScript.</p>
+            <p className="text-skill">Administrador de paquetes para Node.js que permite la instalación, actualización y gestión de paquetes de software reutilizables de manera eficiente y sencilla.</p>
           </div>
           <div className="skill redux">
             <div className="container-icon">
               <img src="./images/redux.svg" alt="" />
             </div>
             <p className="title-skill">Redux Toolkit</p>
-            <p className="text-skill">Paquete oficial de Redux para facilitar la configuración y el uso de Redux.</p>
+            <p className="text-skill">Librería de gestión de estado que utiliza un patrón de flujo de datos unidireccional para actualizar y acceder al estado de la aplicación de manera consistente y centralizada en aplicaciones JavaScript.</p>
           </div>
           <div className="skill framer">
             <div className="container-icon">
               <img src="./images/framer.svg" alt="" />
             </div>
             <p className="title-skill">Framer Motion</p>
-            <p className="text-skill">Librería de animaciones para React.</p>
+            <p className="text-skill">Libreria de animación para React que permite crear animaciones fluidas y sofisticadas mediante la definición de componentes de animación declarativos y personalizables utilizando la sintaxis de JSX.</p>
+          </div>
+          <div className="skill framer">
+            <div className="container-icon">
+              <img src="./images/howlericon.svg" alt="" />
+            </div>
+            <p className="title-skill">Howler.js</p>
+            <p className="text-skill">Librería de audio para aplicaciones web que permite cargar y reproducir archivos de audio en múltiples formatos, y brinda funciones avanzadas como el control de volumen y efectos espaciales.</p>
           </div>
         </div>
       </section>
