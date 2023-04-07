@@ -270,11 +270,18 @@ a{
 .name{
   font-size: 2rem;
   color: white;
+  color: white;
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, 
+  from(rgba(0,0,0,1)), to(rgba(0,0,0,0.3)));
+  text-shadow: 3px 3px 5px black;  
 
 }
 .subtitle{
   font-size: 1rem;
   color: white;
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, 
+  from(rgba(0,0,0,1)), to(rgba(0,0,0,0.3)));
+  text-shadow: 3px 3px 5px black;  
 }
 .about-conatiner{
   background-color: var(--boxbg);
@@ -300,6 +307,9 @@ a{
   font-family: 'Raleway', sans-serif;
   margin-bottom: .5em;
   position: relative;
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, 
+  from(rgba(0,0,0,1)), to(rgba(0,0,0,0.3)));
+  text-shadow: 3px 3px 5px black;  
 }
 .about-text{
   width: 100%;
@@ -310,6 +320,9 @@ a{
   color: var(--txcolor);
   font-size: 1rem;
   font-family: 'Poppins', sans-serif;
+  -webkit-mask-image: -webkit-gradient(linear, left top, 
+  from(rgba(0,0,0,1)), to(rgba(0,0,0,0.3)));
+  text-shadow: 1px 1px 2px black;  
 }
 .about-logo{
   width: 50%;
@@ -317,6 +330,9 @@ a{
   align-items: center;
   justify-content: center;
   position: relative;
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, 
+  from(rgba(0,0,0,1)), to(rgba(0,0,0,0.3)));
+  text-shadow: 3px 3px 5px black;  
 }
 .bgColor{
   width: 300px;
