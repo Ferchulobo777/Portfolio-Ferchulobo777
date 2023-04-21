@@ -35,7 +35,7 @@ const Home = ({ isDark, handleDark }) => {
         <img className="picture" src="/images/Foto Mia.jpg" alt="" />
       </div>
       <h2 className="name">Fernando Rodriguez</h2>
-      <p className="subtitle">Front-end • Web Developer</p>
+      <p className="subtitle">Full-Stack Web Developer</p>
       <Darkmode isDark={isDark} onClick={handleDark} />
       <motion.ul
         transition={{ delay: 2 }}
