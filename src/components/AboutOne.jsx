@@ -18,7 +18,7 @@ const AboutOne = () => {
           <h1   className="about-title">Sobre Mi</h1>
           <div>
             <p className="parapher">
-            Hola mundo! Mi nombre es Fernando Rodriguez y soy originario de Argentina. Soy un desarrollador web especializado en Front-end, apasionado por la programación, el diseño web y disfruto de una buena taza de café mientras trabajo. Me encanta crear experiencias de usuario atractivas y funcionales mediante la implementación de tecnologías de vanguardia y técnicas de diseño innovadoras. ¡Estoy emocionado de seguir aprendiendo y creciendo en este emocionante campo!
+            Soy Fernando Rodriguez, un desarrollador Full-stack de Argentina. Me apasiona la programación y el diseño web, y disfruto creando experiencias de usuario atractivas y funcionales mediante la implementación de tecnologías de vanguardia y técnicas de diseño innovadoras. Soy experto tanto en el Front-end como en el Back-end, y me encanta trabajar en proyectos desafiantes y emocionantes que me permitan seguir aprendiendo y creciendo en mi carrera profesional. Cuando no estoy codificando, me gusta relajarme con una buena taza de café y explorar nuevos lugares. ¡Estoy emocionado de lo que el futuro me depara como desarrollador Full-stack!
             </p>
             <p className="parapher">
             Nunca es tarde para adquirir nuevos conocimientos y nunca es demasiado tarde para ayudar a los demás, especialmente si se trata de programación.

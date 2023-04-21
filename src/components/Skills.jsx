@@ -98,6 +98,27 @@ const Skills = () => {
             <p className="title-skill">Howler.js</p>
             <p className="text-skill">Librería de audio para aplicaciones web que permite cargar y reproducir archivos de audio en múltiples formatos, y brinda funciones avanzadas como el control de volumen y efectos espaciales.</p>
           </div>
+          <div className="skill framer">
+            <div className="container-icon">
+              <img src="/images/python.svg" alt="" />
+            </div>
+            <p className="title-skill">Python</p>
+            <p className="text-skill">Lenguaje de programación interpretado, versátil y fácil de usar, que se utiliza en diversos campos como la ciencia de datos y el desarrollo web. Su amplia biblioteca de módulos y frameworks lo hace una herramienta potente y su sintaxis clara y legible lo hace ideal para principiantes y expertos.</p>
+          </div>
+          <div className="skill framer">
+            <div className="container-icon">
+              <img src="/images/mysql.svg" alt="" />
+            </div>
+            <p className="title-skill">MySql</p>
+            <p className="text-skill">Sistema de gestión de bases de datos relacionales, de código abierto y ampliamente utilizado. Es conocido por ser rápido, confiable y escalable, y cuenta con una gran comunidad de usuarios y desarrolladores en todo el mundo.</p>
+          </div>
+          <div className="skill framer">
+            <div className="container-icon">
+              <img src="/images/nodejs.svg" alt="" />
+            </div>
+            <p className="title-skill">Node js</p>
+            <p className="text-skill">Entorno de tiempo de ejecución de JavaScript en el lado del servidor para construir aplicaciones escalables y rápidas en la web y en la nube, basado en eventos y de código abierto.</p>
+          </div>
         </div>
       </section>
     </div>

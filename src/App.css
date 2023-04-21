@@ -134,9 +134,9 @@ body{
   position: relative;
   left: 0;
   top: 0;
-  -moz-animation: bg 60s linear infinite;
-  -webkit-animation: bg 60s linear infinite;
-  -ms-animation: bg 60s linear infinite;
+  -moz-animation: bg 150ms linear infinite;
+  -webkit-animation: bg 150ms linear infinite;
+  -ms-animation: bg 150ms linear infinite;
   animation: bg 120s linear infinite;
   width:7050px;
   z-index: 11;
@@ -204,7 +204,7 @@ body{
   margin-top: 60px;
   margin-bottom:60px;
   list-style: none;
-  
+  padding: 8px;
   font-size: 1.5em;
 }
 a{
@@ -361,22 +361,23 @@ a{
   flex-direction: column;
   
 }
+
 .skills{
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   max-width: 1350px;
-  gap: 1em;
+  gap: 2em;
   justify-content: center;
 }
 .skill{
   display: flex;
   flex-direction: column;
   box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 5) inset;
-  padding: 1em;
+  padding: 2em;
   width: 100%;
-  max-width: 300px;
-  height: 200px;
+  max-width: 350px;
+  height: 280px;
   background-color: var(--bgskill);
   border-radius: 15px;
   position: relative;

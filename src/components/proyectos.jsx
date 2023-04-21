@@ -1,5 +1,12 @@
 const proyectos = [
   {
+    title: "Famous-Phrases",
+    description:
+      "Famous-Phrases App es una aplicación web que te permite leer frases de personajes famosos y destacados de manera aleatoria y sincronizada con el background.",
+    image: "/images/Phamous-Phrases.png",
+    link: "https://famous-phrases.netlify.app/",
+  },
+  {
     title: "Weather App",
     description:
       "Weather App es una aplicación web que te permite conocer tu clima y el de cualquier ciudad del mundo.",
@@ -21,11 +28,46 @@ const proyectos = [
     link: "https://crud-ferchulobo777.netlify.app/",
   },
   {
+    title: "Cost-Control",
+    description:
+      "Aplicación de control de gastos,lleva un registro detallado de tus finanzas personales. Podrás añadir y clasificar tus gastos, establecer presupuestos para ayudarte a administrar mejor tus recursos financieros.",
+    image: "/images/Cost-control.png",
+    link: "https://cost-control.netlify.app/",
+  },
+  {
+    title: "Conversor-Cripto",
+    description:
+      "Convierte fácilmente entre las 20 cripto-monedas mas utilizadas, con tasas de cambio en tiempo real y una interfaz fácil de usar, podrás estar al tanto de tus inversiones en criptomonedas.",
+    image: "/images/Cripto.png",
+    link: "https://app.netlify.com/sites/cryptocurrency-quote-fer",
+  },
+  {
+    title: "Administrador de Citas",
+    description:
+      "Administración de turnos y pacientes para veterinarias facilita la gestión de citas y el seguimiento de la información de los animales, permitiendo una atención más eficiente y personalizada.",
+    image: "/images/Turnos.png",
+    link: "https://app.netlify.com/sites/cryptocurrency-quote-fer",
+  },
+  {
+    title: "Buscador de Tragos",
+    description:
+      "Aplicación de búsqueda de tragos y cócteles, podrás descubrir recetas y variantes de bebidas alcohólicas de todo el mundo, guardar tus favoritas y compartirlas con amigos.",
+    image: "/images/Bebidas.png",
+    link: "https://beverage-finder.netlify.app/",
+  },
+  {
     title: "Poke App",
     description:
       "¿Tienes alguna duda sobre algún pokemon?, esta aplicación te permite conocer todos los pokemones, sus tipos, sus habilidades y mucho más.",
     image: "/images/poke.png",
     link: "https://pokedex-ferchulobo777.netlify.app/",
+  },
+  {
+    title: "Digidex",
+    description:
+      "Miniproyecto que te permite conocer la apariencia y nivel de cada Digimon.",
+    image: "/images/Digidex.png",
+    link: "https://digidex-ferchulobo777.netlify.app/",
   },
   {
     title: 'E-Commerce',
