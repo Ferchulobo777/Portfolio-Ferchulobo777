@@ -39,14 +39,14 @@ const proyectos = [
     description:
       "Convierte fácilmente entre las 20 cripto-monedas mas utilizadas, con tasas de cambio en tiempo real.",
     image: "/images/Cripto.png",
-    link: "https://app.netlify.com/sites/cryptocurrency-quote-fer",
+    link: "https://cryptocurrency-quote-fer.netlify.app/",
   },
   {
     title: "Administrador de Citas",
     description:
       "Administración de turnos y pacientes para veterinarias facilita la gestión de citas.",
     image: "/images/Turnos.png",
-    link: "https://app.netlify.com/sites/cryptocurrency-quote-fer",
+    link: "https://appointment-veterinary.netlify.app/",
   },
   {
     title: "Buscador de Tragos",
