@@ -107,6 +107,34 @@ const Skills = () => {
           </div>
           <div className="skill framer">
             <div className="container-icon">
+              <img src="/images/nodejs.svg" alt="" />
+            </div>
+            <p className="title-skill">Node js</p>
+            <p className="text-skill">Entorno de tiempo de ejecución de JavaScript en el lado del servidor para construir aplicaciones escalables y rápidas en la web y en la nube, basado en eventos y de código abierto.</p>
+          </div>
+          <div className="skill framer">
+            <div className="container-icon">
+              <img src="/images/express.svg" alt="" />
+            </div>
+            <p className="title-skill">Express</p>
+            <p className="text-skill">framework rápido y minimalista para Node.js que simplifica la creación de aplicaciones web. Permite manejar rutas y solicitudes HTTP de manera eficiente.</p>
+          </div>
+          <div className="skill framer">
+            <div className="container-icon">
+              <img src="/images/handlebars.svg" alt="" />
+            </div>
+            <p className="title-skill">Handlebars</p>
+            <p className="text-skill">motor de plantillas para generar contenido dinámico en aplicaciones web. Se integra bien con Express y facilita la creación de vistas personalizadas con datos variables.</p>
+          </div>
+          <div className="skill framer">
+            <div className="container-icon">
+              <img src="/images/sequelize.svg" alt="" />
+            </div>
+            <p className="title-skill">Sequelize</p>
+            <p className="text-skill">biblioteca de Node.js para bases de datos relacionales. Facilita el manejo de operaciones de base de datos en JavaScript y es útil para desarrollar aplicaciones web escalables.</p>
+          </div>
+          <div className="skill framer">
+            <div className="container-icon">
               <img src="/images/mysql.svg" alt="" />
             </div>
             <p className="title-skill">MySql</p>
@@ -114,10 +142,10 @@ const Skills = () => {
           </div>
           <div className="skill framer">
             <div className="container-icon">
-              <img src="/images/nodejs.svg" alt="" />
+              <img src="/images/postgresql.svg" alt="" />
             </div>
-            <p className="title-skill">Node js</p>
-            <p className="text-skill">Entorno de tiempo de ejecución de JavaScript en el lado del servidor para construir aplicaciones escalables y rápidas en la web y en la nube, basado en eventos y de código abierto.</p>
+            <p className="title-skill">PosgresSQL</p>
+            <p className="text-skill">sistema de gestión de bases de datos relacionales de código abierto. Es rápido, confiable y escalable, con una amplia comunidad de usuarios y desarrolladores. Ofrece características avanzadas y cumple con estándares SQL, garantizando la integridad de los datos.</p>
           </div>
         </div>
       </section>
