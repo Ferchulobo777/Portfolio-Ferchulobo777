@@ -78,7 +78,7 @@ const Home = ({ isDark, handleDark }) => {
         <motion.li key={5} variants={item}>
           {/* download pdf */}
           <a className="icon"
-          href="/CV Fernando Rodriguez.docx"
+          href="/Fernando Rodriguez.pdf"
           target='_blank'
           >
             <i className="fa-solid fa-file"></i>
