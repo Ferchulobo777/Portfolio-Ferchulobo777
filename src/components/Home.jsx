@@ -32,7 +32,7 @@ const Home = ({ isDark, handleDark }) => {
       </div>
       
       <div>
-        <img className="picture" src="//images/Foto Mia.jpg" alt="" />
+        <img className="picture" src="/images/Foto Mia.jpg" alt="" />
       </div>
       <h2 className="name">Fernando Rodriguez</h2>
       <p className="subtitle">Full-Stack Web Developer</p>
