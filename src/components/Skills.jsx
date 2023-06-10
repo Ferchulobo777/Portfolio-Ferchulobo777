@@ -147,6 +147,13 @@ const Skills = () => {
             <p className="title-skill">PosgresSQL</p>
             <p className="text-skill">sistema de gestión de bases de datos relacionales de código abierto. Es rápido, confiable y escalable, con una amplia comunidad de usuarios y desarrolladores. Ofrece características avanzadas y cumple con estándares SQL, garantizando la integridad de los datos.</p>
           </div>
+          <div className="skill framer">
+            <div className="container-icon">
+              <img src="/images/mongodb.svg" alt="" />
+            </div>
+            <p className="title-skill">MongoDB</p>
+            <p className="text-skill">sistema base de datos NoSQL flexible y escalable que almacena datos en documentos JSON. Permite manejar grandes volúmenes de datos y ofrece un lenguaje de consulta poderoso. Es ampliamente utilizado en aplicaciones web y móviles.</p>
+          </div>
         </div>
       </section>
     </div>
