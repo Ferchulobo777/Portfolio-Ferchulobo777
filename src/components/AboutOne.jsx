@@ -18,16 +18,13 @@ const AboutOne = () => {
           <h1   className="about-title">Sobre Mi</h1>
           <div>
             <p className="parapher">
-            Soy Fernando Rodriguez, un desarrollador Full-stack de Argentina. Me apasiona la programación y el diseño web, y disfruto creando experiencias de usuario atractivas y funcionales mediante la implementación de tecnologías de vanguardia y técnicas de diseño innovadoras. Soy experto tanto en el Front-end como en el Back-end, y me encanta trabajar en proyectos desafiantes y emocionantes que me permitan seguir aprendiendo y creciendo en mi carrera profesional. Cuando no estoy codificando, me gusta relajarme con una buena taza de café y explorar nuevos lugares. ¡Estoy emocionado de lo que el futuro me depara como desarrollador Full-stack!
-            </p>
-            <p className="parapher">
-            Nunca es tarde para adquirir nuevos conocimientos y nunca es demasiado tarde para ayudar a los demás, especialmente si se trata de programación.
+            Soy Fernando Rodriguez, un desarrollador Full-stack de Argentina. Me apasiona la programación y el diseño web, y disfruto creando experiencias de usuario atractivas y funcionales mediante la implementación de tecnologías de vanguardia y técnicas de diseño innovadoras. Soy experto tanto en el Front-end como en el Back-end, y me encanta trabajar en proyectos desafiantes y emocionantes que me permitan seguir aprendiendo y creciendo en mi carrera profesional. Cuando no estoy codeando, me gusta relajarme con una buena taza de café y actualizar mis conocimientos.
             </p>
             <p className="parapher">
             Creo firmemente que la programación es una de las maravillas modernas del mundo y que tiene el poder de transformar la vida de las personas y de las sociedades enteras. Como herramienta de resolución de problemas, la programación nos permite abordar desafíos complejos de manera creativa y eficaz. Estoy convencido de que, con el poder de la programación, podemos crear soluciones innovadoras y cambiar el mundo para mejor.
             </p>
             <p className="parapher">
-            Además de mi pasión por la programación, disfruto de otras actividades como leer libros enriquecedores y estudiar nuevas tecnologías y técnicas de programación. Me encanta mantenerme actualizado y aprender continuamente para poder aplicar nuevas ideas y conocimientos en mi trabajo. También disfruto de sumergirme en mundos virtuales a través de videojuegos, ver series y películas interesantes, y relajarme con la música. Definitivamente, combinar estas actividades con la programación es la mejor experiencia que hay para mí. Me permite ser más creativo y encontrar soluciones innovadoras en mi trabajo.
+            Además de mi pasión por la programación, disfruto de otras actividades como leer libros enriquecedores y estudiar nuevas tecnologías y técnicas de programación. Me encanta mantenerme actualizado y aprender nuevos lenguajes para poder aplicar nuevas ideas y conocimientos en mi trabajo. También disfruto de sumergirme en mundos virtuales a través de videojuegos, ver series, películas interesantes, y relajarme con la música.
             </p>
           </div>
         </div>
