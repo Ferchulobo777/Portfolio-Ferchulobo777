@@ -277,11 +277,9 @@ a{
   text-shadow: 3px 3px 5px black;
   border-right: 5px solid;
   white-space: nowrap;
-  animation: typing 3.2s steps(18) infinite alternate, cursor .3s infinite alternate;
-  -webkit-animation: typing 3.2s steps(18) infinite alternate, cursor .3s infinite alternate;
+  animation: typing 3.5s steps(18) infinite alternate, cursor .3s infinite alternate;
+  -webkit-animation: typing 3.5s steps(18) infinite alternate, cursor .3s infinite alternate;
 }
-
-/* Cursor blinking */
 @keyframes cursor {
   0% {
     border-color: white;
@@ -299,7 +297,7 @@ a{
     width: 0;
   }
   to {
-    width: 55%;
+    width: 54%;
   }
 }
 .subtitle{
@@ -655,11 +653,19 @@ a{
 
 
  */
- @media screen and (min-width: 380px) {
+ @media screen and (max-width: 380px) {
   
   .name{
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
+  @keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
   .subtitle{
     font-size: 1.4rem;
   }
@@ -677,39 +683,7 @@ a{
   .about-conatiner, .skills-container, .portafolio{
     padding: 2em;
   }
-  .name {
-    font-size: 1.8rem;
-    color: white;
-    letter-spacing: 5px;
-    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0.3)));
-    text-shadow: 3px 3px 5px black;
-    border-right: 5px solid;
-    white-space: nowrap;
-    animation: typing 3.2s steps(18) infinite alternate, cursor .3s infinite alternate;
-    -webkit-animation: typing 3.2s steps(18) infinite alternate, cursor .3s infinite alternate;
-  }
   
-  /* Cursor blinking */
-  @keyframes cursor {
-    0% {
-      border-color: white;
-    }
-    50% {
-      border-color: transparent;
-    }
-    100% {
-      border-color: white;
-    }
-  }
-  
-  @keyframes typing {
-    from {
-      width: 0;
-    }
-    to {
-      width: 95%;
-    }
-  }
 }
 @media screen and (min-width: 400px) {
   
@@ -779,14 +753,6 @@ a{
   .bg {
     background-size: 950px auto;
   }
-  @keyframes typing {
-    from {
-      width: 0;
-    }
-    to {
-      width: 80%;
-    }
-  }
 }
 
 @media screen and (min-width: 660px) {
@@ -805,14 +771,6 @@ a{
   }
   .about-conatiner, .skills-container, .portafolio{
     padding: 2em;
-  }
-  @keyframes typing {
-    from {
-      width: 0;
-    }
-    to {
-      width: 100%;
-    }
   }
 }
 @media screen and (min-width: 1200px) {
