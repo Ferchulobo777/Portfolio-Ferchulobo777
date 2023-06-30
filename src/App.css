@@ -653,19 +653,11 @@ a{
 
 
  */
- @media screen and (max-width: 380px) {
+ @media screen and (min-width: 380px) {
   
   .name{
     font-size: 1.8rem;
   }
-  @keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
   .subtitle{
     font-size: 1.4rem;
   }
