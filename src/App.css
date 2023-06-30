@@ -269,18 +269,43 @@ a{
     opacity: 1;
   }
 }
-.name{
+.name {
   font-size: 2rem;
   color: white;
-  color: white;
-  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, 
-  from(rgba(0,0,0,1)), to(rgba(0,0,0,0.3)));
-  text-shadow: 3px 3px 5px black;  
+  letter-spacing: 5px;
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0.3)));
+  text-shadow: 3px 3px 5px black;
+  border-right: 5px solid;
+  white-space: nowrap;
+  animation: typing 3.2s steps(18) infinite alternate, cursor .3s infinite alternate;
+  -webkit-animation: typing 3.2s steps(18) infinite alternate, cursor .3s infinite alternate;
+}
 
+/* Cursor blinking */
+@keyframes cursor {
+  0% {
+    border-color: white;
+  }
+  50% {
+    border-color: transparent;
+  }
+  100% {
+    border-color: white;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 55%;
+  }
 }
 .subtitle{
   font-size: 1rem;
   color: white;
+  letter-spacing: 5px;
   -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, 
   from(rgba(0,0,0,1)), to(rgba(0,0,0,0.3)));
   text-shadow: 3px 3px 5px black;  
@@ -305,6 +330,7 @@ a{
 
 .about-title{
   color: var(--txcolor);
+  text-align: center;
   font-size: 3rem;
   font-family: 'Raleway', sans-serif;
   margin-bottom: .5em;

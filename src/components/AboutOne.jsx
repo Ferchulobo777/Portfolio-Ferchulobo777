@@ -18,13 +18,10 @@ const AboutOne = () => {
           <h1   className="about-title">Sobre Mi</h1>
           <div>
             <p className="parapher">
-            Soy Fernando Rodriguez, un desarrollador Full-stack de Argentina. Me apasiona la programación y el diseño web, y disfruto creando experiencias de usuario atractivas y funcionales mediante la implementación de tecnologías de vanguardia y técnicas de diseño innovadoras. Soy experto tanto en el Front-end como en el Back-end, y me encanta trabajar en proyectos desafiantes y emocionantes que me permitan seguir aprendiendo y creciendo en mi carrera profesional. Cuando no estoy codeando, me gusta relajarme con una buena taza de café y actualizar mis conocimientos.
-            </p>
-            <p className="parapher">
-            Creo firmemente que la programación es una de las maravillas modernas del mundo y que tiene el poder de transformar la vida de las personas y de las sociedades enteras. Como herramienta de resolución de problemas, la programación nos permite abordar desafíos complejos de manera creativa y eficaz. Estoy convencido de que, con el poder de la programación, podemos crear soluciones innovadoras y cambiar el mundo para mejor.
-            </p>
-            <p className="parapher">
-            Además de mi pasión por la programación, disfruto de otras actividades como leer libros enriquecedores y estudiar nuevas tecnologías y técnicas de programación. Me encanta mantenerme actualizado y aprender nuevos lenguajes para poder aplicar nuevas ideas y conocimientos en mi trabajo. También disfruto de sumergirme en mundos virtuales a través de videojuegos, ver series, películas interesantes, y relajarme con la música.
+            ¡Hola!, mi nombre es Fernando Rodriguez,  Soy un apasionado Full Stack Developer con amplia experiencia en el desarrollo de aplicaciones web y soluciones tecnológicas. Con una sólida formación en programación y una mentalidad orientada a resultados, me esfuerzo por crear productos de alta calidad que cumplan con los requisitos del cliente y superen sus expectativas.
+            Mi experiencia abarca tanto el desarrollo del lado del cliente como del servidor, lo que me permite crear soluciones completas y eficientes. Utilizo tecnologías modernas y frameworks como HTML5, CSS3, JavaScript, React, Node.js y MongoDB para crear interfaces intuitivas y funcionales, así como potentes aplicaciones web.
+            Además de mis habilidades técnicas, también valoro la comunicación efectiva y el trabajo en equipo. Me enorgullezco de mi capacidad para colaborar estrechamente con los clientes y los miembros del equipo, comprendiendo sus necesidades y ofreciendo soluciones eficientes. También estoy constantemente aprendiendo y actualizando mis conocimientos para mantenerme al día con las últimas tendencias y mejores prácticas en el mundo del desarrollo web.
+            En mi portfolio, encontrarás una selección de proyectos destacados que he completado, demostrando mi capacidad para crear soluciones creativas y funcionales. Estoy listo para enfrentar nuevos desafíos y colaborar en emocionantes proyectos. Si estás buscando un Full Stack Developer profesional y comprometido, estaré encantado de hablar contigo y explorar cómo puedo ayudar a materializar tus ideas y objetivos en realidad.
             </p>
           </div>
         </div>
