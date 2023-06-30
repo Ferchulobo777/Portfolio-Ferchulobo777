@@ -272,6 +272,7 @@ a{
 .name {
   font-size: 2rem;
   color: white;
+  width: 100%;
   letter-spacing: 5px;
   -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0.3)));
   text-shadow: 3px 3px 5px black;
@@ -280,6 +281,7 @@ a{
   animation: typing 3.5s steps(18) infinite alternate, cursor .3s infinite alternate;
   -webkit-animation: typing 3.5s steps(18) infinite alternate, cursor .3s infinite alternate;
 }
+
 @keyframes cursor {
   0% {
     border-color: white;
@@ -297,7 +299,7 @@ a{
     width: 0;
   }
   to {
-    width: 54%;
+    width: 55%;
   }
 }
 .subtitle{
