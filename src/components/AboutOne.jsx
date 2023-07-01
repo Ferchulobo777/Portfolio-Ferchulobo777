@@ -16,7 +16,7 @@ const AboutOne = () => {
       <section className="about">
         <div className="about-text">
           <h1   className="about-title">Sobre Mi</h1>
-          <div>
+          <div className="container-about">
             <p className="parapher">
             ¡Hola!, mi nombre es Fernando Rodriguez,  Soy un apasionado Full Stack Developer con amplia experiencia en el desarrollo de aplicaciones web y soluciones tecnológicas. Con una sólida formación en programación y una mentalidad orientada a resultados, me esfuerzo por crear productos de alta calidad que cumplan con los requisitos del cliente y superen sus expectativas.
             Mi experiencia abarca tanto el desarrollo del lado del cliente como del servidor, lo que me permite crear soluciones completas y eficientes. Utilizo tecnologías modernas y frameworks como HTML5, CSS3, JavaScript, React, Node.js y MongoDB para crear interfaces intuitivas y funcionales, así como potentes aplicaciones web.
@@ -28,7 +28,7 @@ const AboutOne = () => {
         <div className="about-logo">
           <div className="bgColor"></div>
           <div className="logo-container">
-            <h1 className="logo">Ferchulobo777</h1>
+            <h1 className="logo">ferchulobo777</h1>
           </div>
         </div>
       </section>

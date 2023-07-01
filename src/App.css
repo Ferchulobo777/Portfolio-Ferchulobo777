@@ -174,9 +174,6 @@ body{
   }
 }
 
-
-
-
 .overlay {
   -moz-animation: overlay 2.5s 0s linear;
   -webkit-animation: overlay 2.5s 0s linear;
@@ -241,8 +238,6 @@ a{
   color: var(--txcolor);
 }
 
-
-
 @keyframes bg {
   0% {
     -moz-transform: translate3d(0, 0, 0);
@@ -272,7 +267,7 @@ a{
 .name {
   font-size: 2rem;
   color: white;
-  width: 100%;
+  width: 80%;
   letter-spacing: 5px;
   -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0.3)));
   text-shadow: 3px 3px 5px black;
@@ -313,7 +308,6 @@ a{
 .about-conatiner{
   background-color: var(--boxbg);
   width: 100%;
-  
   padding: 1em;
   min-height: 100vh;
   display: flex;
@@ -326,6 +320,9 @@ a{
   flex-direction: column;
   max-width: 1350px;
   height: 100%;
+  position: relative;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-title{
@@ -343,6 +340,7 @@ a{
   width: 100%;
   position: relative;
   z-index: 1;
+  justify-content: center;
 }
 .about p{
   color: var(--txcolor);
@@ -373,6 +371,8 @@ a{
   font-size: 5rem;
   color: rgba(0, 0, 0, 0.158);
   position: relative;
+  justify-content: center;
+  align-items: center;
 }
 .skills-container{
   width: 100%;
@@ -655,11 +655,41 @@ a{
 
 
  */
- @media screen and (min-width: 380px) {
+ @media screen and (max-width: 380px) {
   
-  .name{
-    font-size: 1.8rem;
+  .name {
+  font-size: 2rem;
+  color: white;
+  width: 80%;
+  letter-spacing: 5px;
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0.3)));
+  text-shadow: 3px 3px 5px black;
+  border-right: 5px solid;
+  white-space: nowrap;
+  animation: typing 3.5s steps(18) infinite alternate, cursor .3s infinite alternate;
+  -webkit-animation: typing 3.5s steps(18) infinite alternate, cursor .3s infinite alternate;
+}
+
+@keyframes cursor {
+  0% {
+    border-color: white;
   }
+  50% {
+    border-color: transparent;
+  }
+  100% {
+    border-color: white;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 55%;
+  }
+}
   .subtitle{
     font-size: 1.4rem;
   }
@@ -669,10 +699,7 @@ a{
   .about-text{
     flex-direction: column;
     width: 60%;
-    margin-left: 20%;
     display: flex;
-    text-align: center;
-    justify-content: center;
   }
   .about-conatiner, .skills-container, .portafolio{
     padding: 2em;
@@ -693,7 +720,6 @@ a{
   .about-text{
     flex-direction: column;
     width: 60%;
-    margin-left: 20%;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -711,18 +737,20 @@ a{
     font-size: 1.4rem;
   }
   .about{
-    flex-direction: col;
+    flex-direction: column;
   }
   .about-text{
     flex-direction: column;
     width: 70%;
-    margin-left: 15%;
     display: flex;
     text-align: center;
     justify-content: center;
   }
   .about-conatiner, .skills-container, .portafolio{
     padding: 2em;
+  }
+  .container-about{
+    width: 100%;
   }
 }
 @media screen and (min-width: 546px) {
@@ -758,11 +786,12 @@ a{
     font-size: 1.4rem;
   }
   .about{
-    flex-direction: row;
+    flex-direction: column;
   }
   .about-text{
     width: 50%;
   }
+  
   .about-conatiner, .skills-container, .portafolio{
     padding: 2em;
   }
@@ -777,7 +806,6 @@ a{
   .subtitle{
     font-size: 1.4rem;
   }
-  
 }
 @media screen and (max-height: 600px) {
   .bg {
@@ -808,5 +836,8 @@ a{
     width: 100px;
     height: 100px;
     font-size: 2rem;
+  }
+  .logo{
+    text-align: center;
   }
 }
